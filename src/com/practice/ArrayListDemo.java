@@ -44,7 +44,8 @@ public class ArrayListDemo {
 		
 		System.out.println("Before Sorting");
 		
-// qns		
+// qns	
+//............
 		
 //		for(int n:s) {
 //			if( n==5534) {
