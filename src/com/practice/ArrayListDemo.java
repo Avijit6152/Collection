@@ -46,6 +46,7 @@ public class ArrayListDemo {
 		
 // qns	
 //............
+//......
 		
 //		for(int n:s) {
 //			if( n==5534) {
