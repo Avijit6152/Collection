@@ -1,28 +1,25 @@
 package com.practice;
-import java.util.*;
+
+import java.util.LinkedList;
+
 public class LinkedListDemo {
 
-	
-	public static void main(String args[]){  
+	public static void main(String[] args) {
 		
-		LinkedList<String> al=new LinkedList<String>();
+		LinkedList l =	new LinkedList();
 		
-		al.add("Ravi");  
-		al.add("Vijay");  
-		al.add("Ravi");  
-		al.add("Ajay");
-		al.add("Avijit");
+		l.add("Avijit");
+		l.add(30);
+		l.add(null);
+		l.add("Kumar");
+		l.set(0, "Lenka"); //Replace
+		l.add(0, "Mr.");
+        l.add("Avijit");
+        l.removeLast();
+        l.addFirst("Avi");
+        l.addLast("Avijit");
 		
-		
-		Iterator<String> itr=al.iterator(); 
-		
-		while(itr.hasNext())
-		{  
-		System.out.println(itr.next());  
-		}  
-		}  
+		System.out.println(l);
+	}
+
 }
-
-
-  
- 
